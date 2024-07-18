@@ -22,12 +22,11 @@ The Neural Network model consists of the following components:
 The following activation functions and their derivatives are used:
 
 - **Tanh:** Hyperbolic tangent function for the hidden layer.
-- **ReLU:** Rectified Linear Unit function (not used in the final model).
 - **Softmax:** Function for the output layer to convert logits to probabilities.
 
 ## Parameter Initialization
 
-Parameters (weights and biases) are initialized randomly for the network layers.
+Parameters (weights and biases) are initialized randomly for the network layers at first.
 
 ## Training the Model
 
@@ -35,13 +34,11 @@ The model is trained using forward propagation, cost computation, backward propa
 
 ## Cost vs. Iterations
 
-The cost is monitored over a specified number of iterations to ensure the model is learning appropriately. The cost typically decreases as the number of iterations increases.
+The cost is monitored over a specified number of iterations to ensure the model is learning appropriately and the cost typically decreases as the number of iterations increases.
 
 ## Model Accuracy
 
-The accuracy of the model is evaluated on both the training and test datasets. The accuracy is computed by comparing the predicted labels with the true labels.
-
-## Results
+The accuracy of the model is evaluated on both the training and test datasets. The accuracy is computed by comparing the predicted labels with the true labels and the result is as follows:
 
 - **Accuracy on Training Dataset:** 95.3%
 - **Accuracy on Test Dataset:** 84.57%
